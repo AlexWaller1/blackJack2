@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack Players</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="players-header-1">Black Jack Players</h1>
+    </header>
+    <div id="form-div">
+      <label for="player-name-input" id="player-label"> Player Name:</label>
+      <input type="text" placeholder="Player Name..." id="player-name-input" />
+      <label for="player-city-input" id="player-city-label">Home City:</label>
+      <input type="text" placeholder="Home City..." id="home-city-input" />
+      <label for="player-image-input" id="player-image-label"
+        >Player Image:</label
+      >
+      <input
+        type="text"
+        placeholder="Player Image..."
+        id="player-image-input"
+      />
+      <button type="button" class="btn btn-dark">Submit Player Info</button>
+    </div>
+    <div id="playersdiv">
+      <ul id="players-list"></ul>
+    </div>
+    <script src="players.js"></script>
+  </body>
+</html>
