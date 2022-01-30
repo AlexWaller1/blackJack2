@@ -36,3 +36,34 @@ body {
 #player-label {
   margin-left: 300px;
 }
+
+#players-msg {
+  text-align: center;
+  font-weight: 700;
+  font-size: x-large;
+  margin-top: 25px;
+}
+
+#player-label {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+#player-city-label {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+#player-image-label {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.player-div {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.name-header {
+  margin-bottom: 25px;
+}
