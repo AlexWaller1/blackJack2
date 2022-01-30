@@ -67,3 +67,33 @@ body {
 .name-header {
   margin-bottom: 25px;
 }
+
+.edit-btn {
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: rgb(39, 39, 41);
+  border-radius: 8px;
+  padding: 7px 20px;
+  color: azure;
+}
+
+.delete-btn {
+  background-color: rgb(39, 39, 41);
+  color: azure;
+  border-radius: 8px;
+  padding: 7px 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.modify-btn {
+  background-color: rgb(39, 39, 41);
+  color: azure;
+  border-radius: 8px;
+  padding: 7px 20px;
+}
+
+.player-image {
+  margin-bottom: 25px;
+}
